@@ -4,7 +4,10 @@
         "title": "Sample API"
     },
     "paths": {
-        "/person": {}
+        "/person": {
+            "get": {},
+            "post": {}
+        }
     },
     "definitions": {
         "person": {
