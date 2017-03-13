@@ -2,5 +2,23 @@
     "swagger": "2.0",
     "info": {
         "title": "Sample API"
+    },
+    "paths": {
+        "/person": {}
+    },
+    "definitions": {
+        "person": {
+            "properties": {
+                "name": {
+                    "type": "string"
+                },
+                "age": {
+                    "type": "number"
+                },
+                "gender": {
+                    "type": "string"
+                }
+            }
+        }
     }
 }
